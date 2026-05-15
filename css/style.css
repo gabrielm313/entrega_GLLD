@@ -8,6 +8,7 @@ html , body {
     height: 3.3rem;
 }
 
+/* Página inicial*/
 .perfil{
     height: 5rem;
     background-color: #203040;
@@ -19,8 +20,8 @@ html , body {
 .user{
     height: 90%;
     display: flex;
-flex-direction: column;
-justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .hello{
@@ -45,28 +46,36 @@ justify-content: space-evenly;
 }
 
 .iniciar{
-    height: 6rem;
+    height: 4rem;
     width: 95%;
     background-color: #80A080 ;
     border-radius: 0.5rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
+.scanner{
+    height: 4rem;
+    width: 95%;
+    background-color: #80A080 ;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*Página da rota*/
 .img-seta{
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
 }
 
-/* 1. Faz o body ocupar a tela toda e remove as bordas padrão */
-body.mapa {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
+.icone-seta-pin-qrcode{
+    height: 2.7rem;
+    width: 2.7rem;
 }
-
 
 .imgmapa {
     position: fixed;
@@ -75,7 +84,6 @@ body.mapa {
     width: 100%;
     height: 100%;
 }
-
 
 .principal {
     position: fixed; 
@@ -91,4 +99,42 @@ body.mapa {
 
 .aviso img{
     width: 10px;
+}
+
+
+/* Página de entregas*/
+.caixa{
+    height: 5rem;
+}
+
+.hearder-entregas{
+    height: 5rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+}
+
+.titulo-entregas{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+
+/*Página de metas*/
+.header-metas{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+}
+
+.cifrao{
+    height: 5rem;
+}
+
+.titulo-metas{
+    font-size: 1.5rem;
+    font-family: sans-serif;
 }
