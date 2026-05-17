@@ -8,38 +8,47 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header class="perfil">
-            <a href="menu.html">
-                <img src="img/menu.png" class = 'hamburguer'>
-            </a>
-            <ul class="user">
-                <li class="hello">Olá, </li>
-                <li class="username">Bruno Menezes</li>
-            </ul>
-            <img src="img/perfil.png"  alt="Imagem do Usuário" class="img-usuario">
+        <header>
+            <section class="perfil">
+                <a href="menu.html">
+                    <img src="img/menu.png" class = 'hamburguer'>
+                </a>
+                <ul class="user">
+                    <li class="hello">Olá, </li>
+                    <li class="username">Bruno Menezes</li>
+                </ul>
+                <img src="img/perfil.png"  alt="Imagem do Usuário" class="img-usuario">
+            </section>
         </header>
 
-        <main>
-            <h2>Estatística mensal:</h2>
-            <img src="img/estat_inicio.jpg" alt="Imagem estatística mensal" class="grafico-home">
+        <main class="home">
+            <section class="estat">
+                <a href="metas.html">
+                    <ul>
+                        <li>Desempenho Semanal</li>
+                        <li>Ver Mais</li>
+                    </ul>
+                    <img src="img/grafico_inicio.png" alt="Imagem estatística mensal" class="grafico-home">
+                </a>
+            </section>
+            
+            <ul>
+                <li>
+                    <a href="scanner.html"  class="scanner"> 
+                        <img src="img/qr-code.png" alt="qr-code" class="icone-seta-pin-qrcode">
+                        <p>Escanear Pedido</p>
+                        <img src="img/seta-direita.png" alt="Botão iniciar" class="img-seta">
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="mapa.html" class="iniciar"> 
+                        <img src="img/pin.png" alt="pin" class="icone-seta-pin-qrcode">
+                        <p>Iniciar Rota</p>
+                        <img src="img/seta-direita.png" alt="Botão iniciar" class="img-seta">
+                    </a>
+                </li>
+            </ul>
         </main>
-
-        <ul>
-            <li>
-                <a href="scanner.html"  class="scanner"> 
-                    <img src="img/qr-code.png" alt="qr-code" class="icone-seta-pin-qrcode">
-                    <p>Escanear Pedido</p>
-                    <img src="img/seta-direita.png" alt="Botão iniciar" class="img-seta">
-                </a>
-
-            </li>
-            <li>
-                <a href="mapa.html" class="iniciar"> 
-                    <img src="img/pin.png" alt="pin" class="icone-seta-pin-qrcode">
-                    <p>Iniciar Rota</p>
-                    <img src="img/seta-direita.png" alt="Botão iniciar" class="img-seta">
-                </a>
-            </li>
-        </ul>
     </body>
 </html>
