@@ -7,10 +7,11 @@ html , body {
 main{
     position: absolute;
     top: 5rem;
+    width: 100%;
 }
 
 a{
-        text-decoration: none;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -23,6 +24,10 @@ header{
 }
 
 .hamburguer{
+    height: 3.3rem;
+}
+
+.voltar{
     height: 3.3rem;
 }
 
@@ -96,7 +101,7 @@ header{
 }
 
 .grafico-home{
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-self: center;
     align-self: center;
@@ -104,25 +109,65 @@ header{
 
 .iniciar{
     height: 4rem;
-    width: 95%;
+    width: 100%;
     background-color: #80A080 ;
     border-radius: 0.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .scanner{
     height: 4rem;
-    width: 95%;
+    width: 100%;
     background-color: #80A080 ;
     border-radius: 0.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
+}
+
+.titulo-pagina{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*Página de menu*/
+
+.op-menu{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    border-bottom: 0.1rem solid black;
+    padding: 1.5rem;
+}
+
+.header-menu{
+    height: 5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.link-casa{
+    position: absolute;
+    left: 1rem;
+}
+
+.casinha{
+    height: 3.3rem;
 }
 
 /*Página da rota*/
+
 .img-seta{
     height: 3rem;
     width: 3rem;
@@ -143,18 +188,22 @@ header{
 
 .principal {
     position: fixed; 
+    top:34rem;
+    right: 4rem;
     background-color: rgba(242,233,228); 
-    border: 2px solid black;
-    left: 400px;
-    top: 300px;
-    margin: 10px;
-    width: 500px;
-    padding: 20px;
-    border-radius: 20px;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+
+    width: 70%;
+    height: 10rem;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .aviso img{
-    width: 10px;
+    width: 0.6rem;
 }
 
 
@@ -163,17 +212,60 @@ header{
     height: 5rem;
 }
 
-.hearder-entregas{
+.header-paginas{
     height: 5rem; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.dia-titulo{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #203040;
+    padding: 0.5rem;
+    
+}
+
+.lista-entregas{
+    padding: 0.5rem 1rem;
+    margin: 0;
+
     border-bottom: 0.1rem solid black;
 }
 
-.titulo-entregas{
+.meses{
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.meses li{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.lista-meses{
+    display: flex;
+    width: 100%;
+    height: 4.5rem;
+    justify-content: space-around;
+    align-items: center;
+
+    border: black solid 0.1rem;
+    border-radius: 0.25rem;
+}
+
+.titulo-selecionar{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin: 0.5rem;
+}
+
+.mes{
     font-size: 1.5rem;
     font-family: sans-serif;
+    color: black;
 }
 
 
@@ -183,14 +275,178 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.1rem solid black;
+}
+
+.body-metas{
+    background-color: white;
 }
 
 .cifrao{
-    height: 5rem;
+    height: 4rem;
+    padding: 0.5rem;
 }
 
-.titulo-metas{
-    font-size: 1.5rem;
+.grafico-metas{
+    height: 15rem;
+    width: 90%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.botao-metaF{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 70%;
+    background-color: #80A080 ;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalhes-meta{
+    color: white;
     font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.meta-dia{
+    padding: 0.5rem 1rem;
+    margin-top: 4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 0.1rem;
+    background-color: whitesmoke;
+
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+
+    padding-top: 1rem;
+}
+
+.meta-dia li{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.meta-dia h2{
+    font-weight: bold;
+}
+
+.botao-metaF img{
+    height: 0.7rem;
+    margin-left: 0.5rem;
+}
+.main-metas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.main-metas h2{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.main-metas ul li{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    border: black solid 0.1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+}
+
+.main-metas h3{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 2rem;
+}
+
+
+/*Página de scanner*/
+
+.qr-code-scanner{
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+.main-scanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.main-scanner h2{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+.main-scanner ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.main-scanner ul{
+    width: 70%;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+    border: black solid 0.1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.main-scanner ul li{
+    margin: 0.5rem;
+    font-weight: bold;
+
+}
+
+.main-scanner a{
+    width: 70%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+    color: white ;
+    background-color: #203040;
+    border: black solid 0.1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.main-scanner a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-qrcode{
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-top:1.5rem;
 }
