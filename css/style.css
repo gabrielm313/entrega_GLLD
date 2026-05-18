@@ -188,8 +188,8 @@ header{
 
 .principal {
     position: fixed; 
-    top:34rem;
-    right: 4rem;
+    top: 70%;
+    right: 20%;
     background-color: rgba(242,233,228); 
     border: 0.1rem solid black;
     border-radius: 0.5rem;
