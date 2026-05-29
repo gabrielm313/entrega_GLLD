@@ -6,27 +6,28 @@
         <title>Configurações</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
-        <script src="java/java.js"></script>
+        <script src="JS/java.js"></script>
     </head>
 
     <body>
         <header class="header-menu">
-            <a href="#" id="abrir-menu">
+            <a href="#" id="abrir-menu" class="link-casa">
                 <img src="img/menu.png" alt="Menu" class="voltar">
             </a>
             <h1 class="titulo-pagina">Configuração</h1>
         </header>
 
         <nav id="menu-lateral">
-            <button id="fechar-menu" type="button">
-                <img src="img/voltar.png" alt="Fechar menu" class="voltar">
-            </button>
-
-            <div class="container-casa-menu">
-                <a href="index.html" class="link-casa-menu">
+            <section class="topo-menu">
+                <h2><a href="index.html" class="link-casa-menu">
                     <img src="img/casa.png" alt="Página inicial" class="casinha">
-                </a>
-            </div>
+                </a></h2>
+
+                <button id="fechar-menu" type="button">
+                    <img src="img/voltar.png" alt="Fechar menu" class="voltar">
+                </button>
+
+            </section>
 
             <ul>
                 <li><a href="perfil.html" class="op-menu">Perfil</a></li>
@@ -38,19 +39,10 @@
             </ul>
         </nav>
 
-        <main>
-            <ul>
-                <li>
-                    <a href="idioma.html">
-                        Idioma
-                    </a>
-                </li>
-                <li>
-                    <a href="ajuda.html">
-                        Ajuda
-                    </a>
-                </li>
-            </ul>
+        <main>       
+            <a href="idioma.html" class="link-idioma">
+                <p>Idioma</p>
+            </a>
         </main>
     </body>
 </html>

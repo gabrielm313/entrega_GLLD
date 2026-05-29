@@ -6,7 +6,7 @@
         <title>Cursos</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
-        <script src="java/java.js"></script>
+        <script src="JS/java.js"></script>
     </head>
     <body>
         <header class="header-paginas">
@@ -16,41 +16,49 @@
             <h1 class="titulo-pagina">Cursos</h1>
             <img src="img/capelo.png" alt="Imagem de Capelo" class="img-usuario">
         </header>
-    <nav id="menu-lateral">
-        <button id="fechar-menu" type="button">
-            <img src="img/voltar.png" alt="Fechar menu" class="voltar">
-        </button>
 
-        <div class="container-casa-menu">
-            <a href="index.html" class="link-casa-menu">
-                <img src="img/casa.png" alt="Página inicial" class="casinha">
-            </a>
-        </div>
+        <nav id="menu-lateral">
+            <section class="topo-menu">
 
-        <ul>
-            <li><a href="perfil.html" class="op-menu">Perfil</a></li>
-            <li><a href="metas.html" class="op-menu">Metas</a></li>
-            <li><a href="entregas.html" class="op-menu">Entregas</a></li>
-            <li><a href="cursos.html" class="op-menu">Cursos</a></li>
-            <li><a href="configuracao.html" class="op-menu">Configuração</a></li>
-            <li><a href="ajuda.html" class="op-menu">FAQ</a></li>
-        </ul>
-    </nav>
-        <main>
+                <h2><a href="index.html" class="link-casa-menu">
+                    <img src="img/casa.png" alt="Página inicial" class="casinha">
+                </a></h2>
+                
+                <button id="fechar-menu" type="button">
+                    <img src="img/voltar.png" alt="Fechar menu" class="voltar">
+                </button>
+
+
+            </section>
+
             <ul>
-                <li>
-                    Aula 1: Piloto
-                </li>
-                <video>
-                    <source src="video/video_exemplo.mp4" type="video/mp4">]
-                </video>
-                <li>
-                    Aula 2: Aprendendo a bipar
-                </li>
-                <video>
-                    <source src="video/video_exemplo.mp4" type="video/mp4">]
-                </video>
+                <li><a href="perfil.html" class="op-menu">Perfil</a></li>
+                <li><a href="metas.html" class="op-menu">Metas</a></li>
+                <li><a href="entregas.html" class="op-menu">Entregas</a></li>
+                <li><a href="cursos.html" class="op-menu">Cursos</a></li>
+                <li><a href="configuracao.html" class="op-menu">Configuração</a></li>
+                <li><a href="ajuda.html" class="op-menu">FAQ</a></li>
             </ul>
+        </nav>
+        <main>
+            
+            <p class="titulo-selecionar">Aula 1: Piloto</p>
+            <video class="video-aula" controls>
+                    
+                <source src="video/video_exemplo.mp4" type="video/mp4">
+            </video>
+            
+            <p class="titulo-selecionar">Aula 2: Aprendendo a bipar</p>
+            
+            <video class="video-aula" controls>
+                <source src="video/video_exemplo.mp4" type="video/mp4">
+            </video>
+         
+            <p class="titulo-selecionar">Aula 3: Dicas para </p>
+            
+            <video class="video-aula" controls>
+                <source src="video/video_exemplo.mp4" type="video/mp4">
+            </video>
         </main>
         
     </body>

@@ -1,107 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de início</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de início</title>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="java/java.js"></script>
-</head>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="JS/java.js"></script>
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <section class="perfil">
+        <header>
+            <section class="perfil">
 
-            <a href="#" id="abrir-menu">
-                <img src="img/menu.png" class="hamburguer" alt="Menu">
-            </a>
+                <a href="#" id="abrir-menu">
+                    <img src="img/menu.png" class="hamburguer" alt="Menu">
+                </a>
 
-            <ul class="user">
-                <li class="hello">Olá,</li>
-                <li class="username">Bruno Menezes</li>
-            </ul>
-
-            <img src="img/perfil.png" alt="Imagem do Usuário" class="img-usuario">
-
-        </section>
-    </header>
-
-    <nav id="menu-lateral">
-        <button id="fechar-menu" type="button">
-            <img src="img/voltar.png" alt="Fechar menu" class="voltar">
-        </button>
-
-        <div class="container-casa-menu">
-            <a href="index.html" class="link-casa-menu">
-                <img src="img/casa.png" alt="Página inicial" class="casinha">
-            </a>
-        </div>
-
-        <ul>
-            <li><a href="perfil.html" class="op-menu">Perfil</a></li>
-            <li><a href="metas.html" class="op-menu">Metas</a></li>
-            <li><a href="entregas.html" class="op-menu">Entregas</a></li>
-            <li><a href="cursos.html" class="op-menu">Cursos</a></li>
-            <li><a href="configuracao.html" class="op-menu">Configuração</a></li>
-            <li><a href="ajuda.html" class="op-menu">FAQ</a></li>
-        </ul>
-    </nav>
-
-    <main class="home">
-
-        <section class="estat">
-            <a href="metas.html">
-                <ul class="info-graf">
-                    <li>Desempenho Semanal</li>
-                    <li class="ver-mais">Ver Mais</li>
+                <ul class="user">
+                    <li class="hello">Olá,</li>
+                    <li class="username"><h1>Bruno Menezes</h1></li>
                 </ul>
 
-                <img src="img/grafico_inicio.png"
-                     alt="Imagem estatística mensal"
-                     class="grafico-home">
-            </a>
-        </section>
+                <img src="img/perfil.png" alt="Imagem do Usuário" class="img-usuario">
 
-        <ul class="botao-index">
+            </section>
+        </header>
 
-            <li>
-                <a href="scanner.html" class="scanner">
+        <nav id="menu-lateral">
+            <section class="topo-menu">
+                <h2><a href="index.html" class="link-casa-menu">
+                    <img src="img/casa.png" alt="Página inicial" class="casinha">
+                </a></h2>
 
-                    <img src="img/qr-code.png"
-                         alt="qr-code"
-                         class="icone-seta-pin-qrcode">
+                <button id="fechar-menu" type="button">
+                    <img src="img/voltar.png" alt="Fechar menu" class="voltar">
+                </button>
 
-                    <p>Escanear Pedido</p>
+            </section>
 
-                    <img src="img/seta-direita.png"
-                         alt="Botão iniciar"
-                         class="img-seta">
+            <ul>
+                <li><a href="perfil.html" class="op-menu">Perfil</a></li>
+                <li><a href="metas.html" class="op-menu">Metas</a></li>
+                <li><a href="entregas.html" class="op-menu">Entregas</a></li>
+                <li><a href="cursos.html" class="op-menu">Cursos</a></li>
+                <li><a href="configuracao.html" class="op-menu">Configuração</a></li>
+                <li><a href="ajuda.html" class="op-menu">FAQ</a></li>
+            </ul>
+        </nav>
 
+        <main class="home">
+
+            <section class="estat">
+                <a href="metas.html">
+                    <ul class="info-graf">
+                        <li><h2>Desempenho Semanal</h2></li>
+                        <li class="ver-mais">Ver Mais</li>
+                    </ul>
+
+                    <img src="img/grafico_inicio.png"
+                        alt="Imagem estatística mensal"
+                        class="grafico-home">
                 </a>
-            </li>
+            </section>
 
-            <li>
-                <a href="mapa.html" class="iniciar">
+            <ul class="botao-index">
 
-                    <img src="img/pin.png"
-                         alt="pin"
-                         class="icone-seta-pin-qrcode">
+                <li>
+                    <a href="scanner.html" class="scanner">
 
-                    <p>Iniciar Rota</p>
+                        <img src="img/qr-code.png"
+                            alt="qr-code"
+                            class="icone-seta-pin-qrcode">
 
-                    <img src="img/seta-direita.png"
-                         alt="Botão iniciar"
-                         class="img-seta">
+                        <p>Escanear Pedido</p>
 
-                </a>
-            </li>
+                        <img src="img/seta-direita.png"
+                            alt="Botão iniciar"
+                            class="img-seta">
 
-        </ul>
+                    </a>
+                </li>
 
-    </main>
+                <li>
+                    <a href="mapa.html" class="iniciar">
 
-</body>
+                        <img src="img/pin.png"
+                            alt="pin"
+                            class="icone-seta-pin-qrcode">
+
+                        <p>Iniciar Rota</p>
+
+                        <img src="img/seta-direita.png"
+                            alt="Botão iniciar"
+                            class="img-seta">
+
+                    </a>
+                </li>
+
+            </ul>
+
+        </main>
+
+    </body>
 </html>
